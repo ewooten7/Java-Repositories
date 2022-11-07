@@ -91,14 +91,15 @@ public class PetDemo {
     }
 
 //Output
-    public void writeOutput( )
+    public String toString() {//overriding the toString() method}
+return type;
+}
     {
         System.out.println("Pet's name: " + name);
         System.out.println("Pet's Age: " + age + " Years old");
         System.out.println("Location Pet received " + location);
-        System.out.println("Type of Pet: " + type);
+        System.out.println("Type of Pet: " + type); //should be overwritten now
     }
-     
-    
+        
 }
     
